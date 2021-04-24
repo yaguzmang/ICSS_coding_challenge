@@ -27,5 +27,11 @@ Here you can see how the algorithm works:
 ![](Images/find_cheapest.gif)
 **Image 2** - Finding the cheapest operator
 ### Asymptotic Computational Complexity of the solution:
-The cost of inserting prefixes and finding the cheapest operator is (`O(phone_length) + O(number_operators)`). To compare, a regular list lookup would cost (`O(N)`), where N is the total number of entries.
-When it comes to the memory complexity, the upper bound is (`O(m*n)`) where (`m`) is the average length of the prefixes and (`n`) is the number of prefixes. 
+The cost of inserting prefixes and finding the cheapest operator is `O(phone_length) + O(number_operators)`. To compare, a regular list lookup would cost `O(N)`, where N is the total number of entries.
+
+When it comes to the memory complexity, the upper bound is `O(m*n)`, where `m` is the average length of the prefixes and `n` is the number of prefixes. This upper bound is only met in edge cases. The average memory consumption would be much lower as many prefixes can share numbers in common.
+
+From the Asymptotic Computational Complexity analysis, we can conclude that the solution is very efficient. The only trade-off with a regular list implementation is the insertion cost. Inserting in a list cost only `O(1)`, but insertion only happens once per prefix, so the trade-off makes sense. 
+
+## Application demo :computer:
+![](Images/demo.gif)
