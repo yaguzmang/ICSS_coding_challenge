@@ -4,7 +4,7 @@ __author__      = "Yhoan Alejandro Guzmán García"
 __version__     = "1.0"
 __email__ = "yaguzmang@eafit.edu.co"
 
-import helpers 
+from trie import helpers 
 from trie.trie import Trie
 
 def run():
