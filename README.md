@@ -1,5 +1,5 @@
 # ICSS Coding Challenge
-This is the repository where you can find my solutions to the alaTest/ValueChecker (ICSS) challenge 2021
+This is the repository where you can find my solutions to the alaTest/ValueChecker (ICSS) challenge 2021 and my CV.
 
 ## Author :black_nib:
 - Yhoan Alejandro Guzmán García
@@ -15,3 +15,5 @@ The solution, accounting for the mentioned challenges, is a modified prefix Trie
 
 ![](Images/data_structure.png)
 **Image 1** - Trie data structure
+This data structure lowers considerably the memory usage as it inserts prefixes by only adding the non-existing numbers.
+It also allows handling any number of operators. As seen in the image, it is possible to differentiate operators by adding the operator:price pairs in the digit nodes. 
