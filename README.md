@@ -1,5 +1,5 @@
 # ICSS Coding Challenge
-This is the repository where you can find my solutions to the alaTest/ValueChecker (ICSS) challenge 2021 and my CV.
+This is the repository where you can find my solution to the alaTest/ValueChecker (ICSS) challenge 2021 and my CV.
 
 ## Author :black_nib:
 - Yhoan Alejandro Guzmán García
@@ -12,10 +12,10 @@ Even though all entries fit into memory, it is important to have a way to store 
 
 ## The solution :bulb:
 ### Storing the data:
-The solution, accounting for the mentioned challenges, is a modified prefix Trie data structure. This data structure solves the redundant data and lookups:
+My solution, accounting for the mentioned challenges, is data structure similar to a Trie. This data structure solves the redundant data and lookups:
 
 ![](Images/data_structure.png)
-**Image 1** - Trie data structure
+**Image 1** - Data structure
 
 This data structure lowers considerably the memory usage as it inserts prefixes by only adding the non-existing numbers.
 It also allows handling any number of operators. As seen in the image, it is possible to differentiate operators by adding the operator:price pairs in the digit nodes. 
@@ -26,3 +26,6 @@ Here you can see how the algorithm works:
 
 ![](Images/find_cheapest.gif)
 **Image 2** - Finding the cheapest operator
+### Asymptotic Computational Complexity of the solution:
+The cost of inserting prefixes and finding the cheapest operator is (`O(phone_length) + O(number_operators)`). To compare, a regular list lookup would cost (`O(N)`), where N is the total number of entries.
+When it comes to the memory complexity, the upper bound is (`O(m*n)`) where (`m`) is the average length of the prefixes and (`n`) is the number of prefixes. 
