@@ -24,5 +24,5 @@ To find the cheapest operator, we need to traverse the Trie following the number
 
 Here you can see how the algorithm works:
 
-![](Images/find_cheapest.png)
+![](Images/find_cheapest.gif)
 **Image 2** - Finding the cheapest operator
