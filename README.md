@@ -13,5 +13,5 @@ Even though all entries fit into memory, it is important to have a way to store 
 The solution, accounting for the mentioned challenges, is a modified prefix Trie data structure. This data structure solves the redundant data and lookups.
 The structure is as follows: 
 El diseño elegido que se planteó para la realización del aplicativo es el siguiente:
-![](images/data_structure.png)
+![](Images/data_structure.png)
 **Imagen 1** - Trie data structure
