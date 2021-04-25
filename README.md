@@ -7,7 +7,7 @@ This is the repository where you can find my solution to the alaTest/ValueChecke
 ### CV:
 [Resume Yhoan Alejandro Guzman Garcia](CV/Resume_Yhoan_Alejandro_Guzman_Garcia.pdf)
 ### Relevant code examples:
-> [Fish store - code](https://github.com/jsperezsalazar2001/AquaLife)
+- [Fish store - code](https://github.com/jsperezsalazar2001/AquaLife)
 
 I can not share the code of other projects since the codebases are not public and I am under an NDA.
 
