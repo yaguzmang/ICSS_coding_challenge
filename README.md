@@ -6,6 +6,7 @@ This is the repository where you can find my solution to the alaTest/ValueChecke
 > yaguzmang@eafit.du.co
 ### CV:
 [Resume Yhoan Alejandro Guzman Garcia](CV/Resume_Yhoan_Alejandro_Guzman_Garcia.pdf)
+
 [LinkedIn](https://www.linkedin.com/in/yhoan-guzman/)
 ### Relevant code examples:
 - [Fish store - code](https://github.com/jsperezsalazar2001/AquaLife)
