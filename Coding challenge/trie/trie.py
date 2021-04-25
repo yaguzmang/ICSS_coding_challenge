@@ -14,7 +14,7 @@ class Trie:
     """
     def __init__(self):
         self.root = TrieNode()
-        self.root.name = 'root'
+        self.root.value = 'root'
 
 
     def insert(self, operator_name: str, phone_prefix: str, price: float) -> None:
@@ -28,7 +28,7 @@ class Trie:
             for char in phone_prefix:
                 if char not in node.children:
                     node.children[char] = TrieNode()
-                    node.children[char].name = char
+                    node.children[char].value = char
                 node = node.children[char]
             node.prices[operator_name] = price
 
@@ -74,7 +74,7 @@ class Trie:
         except Exception as err:
             raise
 
-    def search(self, phone_prefix: str) -> None:
+    def search(self, phone_prefix: str) -> bool:
         """
         Traverses the Trie given the phone prefix. Returns the prices if the prefix
         is in the Trie and False if it is not.

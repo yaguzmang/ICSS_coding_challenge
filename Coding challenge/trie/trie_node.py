@@ -8,7 +8,7 @@ class TrieNode:
     Attributes
     ----------
     name : str
-        The name of the node ('root' or the digits).
+        The value of the node ('root' or the digits).
     children : dict
         The pointers the nodes' children -> { name : TrieNode }.
     prices : dict
@@ -18,10 +18,10 @@ class TrieNode:
 
     """
     def __init__(self):
-        self.name = None
+        self.value = None
         self.children = {}
         self.prices = {}
 
     def __repr__(self):
         children_string = str(self.children.keys())
-        return f"Current: {self.name}. Children: {children_string}. Prices: {str(self.prices)}"
+        return f"Current: {self.value}. Children: {children_string}. Prices: {str(self.prices)}"
