@@ -5,7 +5,7 @@ This is the repository where you can find my solution to the alaTest/ValueChecke
 - Yhoan Alejandro Guzmán García
 > yaguzmang@eafit.du.co
 ### CV:
-![Resume Yhoan Alejandro Guzman Garcia](CV/Resume_Yhoan_Alejandro_Guzman_Garcia.pdf)
+[Resume Yhoan Alejandro Guzman Garcia](CV/Resume_Yhoan_Alejandro_Guzman_Garcia.pdf)
 
 ## Routing of telephone calls - The challenge :memo:
 The challenging part of routing telephone calls in this context is to handle any number of operators with thousands of price entries and then calculate the cheapest operator for a certain number. 
