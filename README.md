@@ -40,3 +40,12 @@ From the Asymptotic Computational Complexity analysis, we can conclude that the 
 
 ## Application (command line) demo :computer:
 ![](Images/demo.gif)
+**Image 3** - App demo
+## About the implementation :keyboard:
+
+The code was developed in python 3.8, following the next class diagram for the Trie and TrieNode classes:
+![](Images/trie_class_diagram.png)
+
+The [unit tests](Coding%20challenge/tests/test_trie.py) where implemented with unittest, passing all tests in 0.002s.
+
+For any other information or question, feel free to reach out.
