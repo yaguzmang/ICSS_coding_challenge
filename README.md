@@ -21,11 +21,11 @@ Although all entries fit in memory, it is important to have a less redundant way
 My solution, accounting for the mentioned challenges, is a data structure similar to a Trie. This data structure solves the redundant data and lookups:
 
 ![](Images/data_structure.png)
-**Image 1** - Data structure
+**Image 1** - Data structure filled with the data from the example
 
 This data structure considerably lowers the memory usage as it inserts prefixes by only adding the non-existing digits. It also allows handling any number of operators. As seen in the image, it is possible to differentiate operators by adding the `operator:price` pairs in the digit nodes.
 ### Finding the cheapest operator:
-To find the cheapest operator, we need to traverse the Trie following the each digit in the phone number. When we encounter a digit node that contains `operator:price` pairs, we know that those operators support the phone number up to the current digit. After finding the supported prefixes and their prices and operators, it is only a matter of picking the cheapest. It is important to note that the supported prefixes found are the longest matching prefixes per operator.
+To find the cheapest operator, we need to traverse the Trie following each digit in the phone number. When we encounter a digit node that contains `operator:price` pairs, we know that those operators support the phone number up to the current digit. After finding the supported prefixes and their prices and operators, it is only a matter of picking the cheapest. It is important to note that the supported prefixes found are the longest matching prefixes per operator.
 
 Here you can see how the algorithm works:
 
@@ -50,4 +50,4 @@ The [unit tests](Coding%20challenge/tests/test_trie.py) were implemented with th
 ![](Images/demo.gif)
 **Animated Image 2** - App demo
 
-For any other information or question, feel free to reach out.
+If you have any questions or require information, feel free to reach out.
