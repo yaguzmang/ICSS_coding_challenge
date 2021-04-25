@@ -38,9 +38,6 @@ When it comes to the memory complexity, the upper bound is `O(m*n)`, where `m` i
 
 From the Asymptotic Computational Complexity analysis, we can conclude that the solution is very efficient. The only trade-off with a regular list implementation is the insertion cost. Inserting in a list costs only `O(1)`, but insertion only happens once per prefix, so the trade-off makes sense. 
 
-## Application (command line) demo :computer:
-![](Images/demo.gif)
-**Animated Image 2** - App demo
 ## About the implementation :keyboard:
 
 The code was developed in python 3.8, following the next class diagram for the Trie and TrieNode classes:
@@ -48,5 +45,9 @@ The code was developed in python 3.8, following the next class diagram for the T
 **Image 2** - Trie and TrieNode class diagram
 
 The [unit tests](Coding%20challenge/tests/test_trie.py) were implemented with the python unittest framework, passing all tests in 0.002s.
+
+## Application (command line) demo :computer:
+![](Images/demo.gif)
+**Animated Image 2** - App demo
 
 For any other information or question, feel free to reach out.
