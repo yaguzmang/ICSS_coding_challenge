@@ -2,10 +2,13 @@
 This is the repository where you can find my solution to the alaTest/ValueChecker (ICSS) challenge 2021 and my CV.
 
 ## Author :black_nib:
-- Yhoan Alejandro Guzmán García
+### Yhoan Alejandro Guzmán García
 > yaguzmang@eafit.du.co
 ### CV:
 [Resume Yhoan Alejandro Guzman Garcia](CV/Resume_Yhoan_Alejandro_Guzman_Garcia.pdf)
+### Relevant code examples:
+> [Fish store - code](https://github.com/jsperezsalazar2001/AquaLife)
+I can not share the code of other projects since the codebases are not public and I am under an NDA.
 
 ## Routing of telephone calls - The challenge :memo:
 The challenging part of routing telephone calls in this context is to handle any number of operators with thousands of price entries and then calculate the cheapest operator for a certain number. 
