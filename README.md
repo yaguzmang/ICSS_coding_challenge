@@ -30,7 +30,7 @@ To find the cheapest operator, we need to traverse the Trie following the each d
 Here you can see how the algorithm works:
 
 ![](Images/find_cheapest.gif)
-**Image 2** - Finding the cheapest operator
+**Animated Image 1** - Finding the cheapest operator
 ### Asymptotic Computational Complexity of the solution:
 The cost of inserting prefixes and finding the cheapest operator is `O(phone_length) + O(number_operators)`. In comparison, a regular list lookup would cost `O(N)`, where N is the total number of entries.
 
@@ -40,12 +40,13 @@ From the Asymptotic Computational Complexity analysis, we can conclude that the 
 
 ## Application (command line) demo :computer:
 ![](Images/demo.gif)
-**Image 3** - App demo
+**Animated Image 2** - App demo
 ## About the implementation :keyboard:
 
 The code was developed in python 3.8, following the next class diagram for the Trie and TrieNode classes:
 ![](Images/trie_class_diagram.png)
+**Image 2** - Trie and TrieNode class diagram
 
-The [unit tests](Coding%20challenge/tests/test_trie.py) where implemented with unittest, passing all tests in 0.002s.
+The [unit tests](Coding%20challenge/tests/test_trie.py) were implemented with the python unittest framework, passing all tests in 0.002s.
 
 For any other information or question, feel free to reach out.
