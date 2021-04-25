@@ -9,7 +9,7 @@ This is the repository where you can find my solution to the alaTest/ValueChecke
 ### Relevant code examples:
 - [Fish store - code](https://github.com/jsperezsalazar2001/AquaLife)
 
-I can not share the code of other projects since the codebases are not public and I am under an NDA.
+I can not share the code of the other projects since the codebases are not public and I am under an NDA.
 
 ## Routing of telephone calls - The challenge :memo:
 The challenging part of routing telephone calls in this context is to handle any number of operators with thousands of price entries and then calculate the cheapest operator for a given phone number. 
