@@ -7,7 +7,7 @@ class TrieNode:
 
     Attributes
     ----------
-    name : str
+    value : str
         The value of the node ('root' or the digits).
     children : dict
         The pointers the nodes' children -> { name : TrieNode }.
@@ -25,4 +25,3 @@ class TrieNode:
     def __repr__(self):
         children_string = str(self.children.keys())
         return f"Current: {self.value}. Children: {children_string}. Prices: {str(self.prices)}"
-        
