@@ -16,7 +16,6 @@ class Trie:
         self.root = TrieNode()
         self.root.value = 'root'
 
-
     def insert(self, operator_name: str, phone_prefix: str, price: float) -> None:
         """Inserts the given telephone prefix into the Trie."""
         try:
